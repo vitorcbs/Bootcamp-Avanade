@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+    /* background-image: url(71f028f1-aafa-49fc-bde4-94bca315d410.png); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  border: 1px solid rgb(73, 198, 230);
+  border-radius: 5px;
+  background-color: rgb(75, 182, 214);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(78, 200, 221);
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#list {
+    background-color: rgb(187, 221, 230);
+    border: 1px solid rgb(88, 196, 247);
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+#title {
+    border: 1px solid rgb(82, 134, 212);
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(92, 184, 226, 0.74);
+}
